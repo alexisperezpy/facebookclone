@@ -1,0 +1,24 @@
+{% load static %}
+
+<ul class="p-4">
+    <li>
+        <a href="#" class="flex items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg transition-all dark:text-dark-txt dark:hover:bg-dark-third">
+            <img src="{% static 'img/user.png' %}" alt="Profile picture" class="w-10 h-10 rounded-full">
+            <span class="font-semibold">Usuario logueado</span>
+        </a>
+    </li>
+    <li>
+        <a href="#" class="flex items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg transition-all dark:text-dark-txt dark:hover:bg-dark-third dark:focus:bg-dark-second">
+            <img src="{% static 'img/amigos1.png' %}" alt="Friends picture" class="w-10 h-10 rounded-full">
+            <span class="font-semibold">Friends</span>
+        </a>
+    </li>
+    
+    <li>
+        <a href="#" class="flex items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg transition-all dark:text-dark-txt dark:hover:bg-dark-third dark:focus:bg-dark-second">
+            <img src="{% static 'img/apps.png' %}" alt="Friends picture" class="w-10 h-10 rounded-full">
+            <span class="font-semibold">Applications</span>
+        </a>
+    </li> 
+    <li class="border-b border-gray-200 dark:border-dark-third mt-6"></li>
+</ul>

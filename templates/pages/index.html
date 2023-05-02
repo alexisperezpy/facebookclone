@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+{% block navbar %}  
+    {% include 'components/navbar.html' %}
+{% endblock navbar %}
+
+{% block left_sidebar %}
+    {% include 'components/sidebars/left/sidebar.html' %}
+{% endblock left_sidebar %}
+
+{% block content %} 
+<p class="">Esto es un Testing de tailwind incluido como contenido de este simulador o clone de Facebook hecho con Django</p>
+
+{% endblock content %}
+
+{% block right_sidebar %}
+<p>aqui un elemento del Derecha sidebar</p>
+{% endblock right_sidebar %}
+
+{% block footer %} {% endblock footer %}
+
+{% block javascript %}
+{% endblock javascript %}
